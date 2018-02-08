@@ -9,8 +9,8 @@ The program requires one or two command line inputs.
 3) The time slice, if simulating round robin.  Type an integer value.
 
 Sample Compilation and Execution
-   g++ scheduler.cpp
-   ./a.out config.txt RR 3
+1) g++ scheduler.cpp
+2) ./a.out config.txt RR 3
 
 
 Information Regarding the Formatting File
