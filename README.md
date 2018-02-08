@@ -12,11 +12,8 @@ Information Regarding the Formatting File
 - Each process is represented as a line in the file
 - Each process has two pieces of information, its arrival time and its burst length
  
- eg.  1 10
-      3 5
-      5 3
  
-      This file contains information about three processes.
-      - P0 arrives at time 1 and has a burst length of 10, so it will require 10 time units to finish executing
-      - P1 arrives at time 3 and has a burst length of 5, so it will require 5 time units to finish executing
-      - P2 arrives at time 5 and has a burst length of 3, so it will require 3 time units to finish executing
+A sample formatting file has been included, called config.txt.  This file contains information about three processes.
+- P0 arrives at time 1 and has a burst length of 10, so it will require 10 time units to finish executing
+- P1 arrives at time 3 and has a burst length of 5, so it will require 5 time units to finish executing
+- P2 arrives at time 5 and has a burst length of 3, so it will require 3 time units to finish executing
