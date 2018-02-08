@@ -8,6 +8,11 @@ The program requires one or two command line inputs.
 2) The type of scheduling algorithm to simulate.  Type RR for round robin or SJF for shortest job first.
 3) The time slice, if simulating round robin.  Type an integer value.
 
+Sample Compilation and Execution
+g++ scheduler.cpp
+./a.out config.txt RR 3
+
+
 Information Regarding the Formatting File
 - Each process is represented as a line in the file
 - Each process has two pieces of information, its arrival time and its burst length
